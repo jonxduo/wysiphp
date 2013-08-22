@@ -1,0 +1,27 @@
+.wysiwyg-text-align-left {
+	text-align: left;
+}
+
+.wysiwyg-text-align-center {
+	text-align: center;
+}
+
+.wysiwyg-text-align-right {
+	text-align: right;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before { 
+	margin-right:0.75em !important; 
+}
+
+.media-left {
+	display:block;
+	float:left;
+	margin-right:10px;
+}
+
+input.imageUrl {line-height: 20px !important;}
+iframe {width:100% !important;}
+.weditorStyle{width:100%; border:1px solid #ddd; border-radius:5px; padding:10px; background:none;}
+.wysihtml5-editor {border:0px; padding:0px;}
+[class^="icon-"]:before, [class*=" icon-"]:before { margin-right:0.75em !important; }
