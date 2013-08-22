@@ -2,6 +2,7 @@ wysiphp
 =======
 
 simple text editor based on wysihtml5 and bootstrap
+<a href="http://webcrafter.it/wysiphp/" arget="_blank">DEMO</a>
 
 
 
