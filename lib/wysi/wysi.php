@@ -174,7 +174,6 @@ class wysi {
 	function getEditor(){
 		$html= '<div data-wysi-id="'.$this->id.'">
 			<div id="toolbar'.$this->id.'" class="navbar navbar-default" style="display: none;">
-				<div class="navbar-header">
 					<span class="navbar-brand">'.$this->label.'</span>';
 
 		if($this->buttons['text-format']) $html.= $this->buttontpl['text-format'];
@@ -215,7 +214,7 @@ class wysi {
 
 		if($this->buttons['source']) $html.= $this->buttontpl['source'];
 
-		$html.= '</div></div></div>';
+		$html.= '</div></div>';
 
 		if($this->buttons['code']) $html.= $this->buttontpl['code-modal'];
 		if($this->buttons['quote']) $html.= $this->buttontpl['quote-modal'];
